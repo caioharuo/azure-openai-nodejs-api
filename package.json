@@ -1,0 +1,23 @@
+{
+  "name": "azure-openai-nodejs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "@azure/openai": "^1.0.0-beta.2",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.18.0",
+    "zod": "^3.21.4"
+  }
+}
